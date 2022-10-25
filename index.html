@@ -12,66 +12,199 @@
 </body>
 </html>
 <body>
-    <header>
-    <nav id="navbar">
-      <a href="Projects">Sobre</a>
-      <a href="#projetos">Trabalhos</a>
-      <a href="Projects">Contato</a>
-    </nav>
-    </header>
-    <main>
-    
-    <section id="welcome-section">
-      <h1>Olá sou Wilson Albino</h1>
-      <p> Fotógrafo e Jonalista</p>
-      </section>
-    
-    <div id="projects-grid">
-      
-      <section id="projects">
-    
-      <header> <h1>Evento F5 Informática</h1></header>
-    <section>
-      <img src="img/toninho1.jpeg" alt="toninho1" class="project-image">
-      <img src="img/pai_e_filha.jpeg" alt="toninho2" class="project-image">
-    </section>
-    
+  <!-- START NAV -->
 
-    <section id="projects">
-    
-    <header> <h1>Aniversários</h1> </header>
-    <section>
-  
-    </section>
-    </section>
+  <nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="#welcome-section">Sobre</a>
+      </li>
+      <li>
+        <a href="#projects">Trabalhos</a>
+      </li>
+      <li>
+        <a href="#contact">Contato</a>
+      </li>
+    </ul>
+  </nav>
 
+  <!-- END NAV -->
 
+  <!-- START WELCOME SECTION -->
 
+  <section id="welcome-section" class="welcome-section">
+    <h1>Olá eu sou Wilson Albino</h1>
+    <p>Jornalista & Fotógrafo </p>
+  </section>
 
+  <!-- END WELCOME SECTION -->
 
+  <!-- START PROJECTS SECTION -->
 
+  <section id="projects" class="projects-section">
+    <h2 class="projects-section-header">Veja alguns dos meus trabalhos</h2>
 
+    <div class="projects-grid">
+      <a
+        href="https://drive.google.com/drive/folders/1QHyCpeLEXR4AD1T_WNXJuDoBnE7b_D4Z?usp=sharing"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="img/toninho1.jpeg"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Festa das crianças F5 Informática
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://drive.google.com/drive/folders/1nVRMqQ2W4StU9DN9blroy76JMvBdxXSD"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="img/casamento.JPG"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Casamentos
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          JavaScript Calculator
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/mVEJag"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Map Data Across the Globe
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/wGqEga"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Wikipedia Viewer
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Tic Tac Toe Game
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+    </div>
 
+    <a
+      href="https://codepen.io/FreeCodeCamp/"
+      class="btn btn-show-all"
+      target="_blank"
+      >Show all<i class="fas fa-chevron-right"></i
+    ></a>
+  </section>
 
+  <!-- END PROJECTS SECTION -->
 
+  <!-- START CONTACT SECTION -->
 
+  <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2>Vamos realizar um trabalho juntos...</h2>
+      <p>Como gostaria das suas fotos?</p>
+    </div>
+    <div class="contact-links">
+      <a
+        href="https://facebook.com/freecodecamp"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-facebook-square"></i>Facebook</a
+      >
+      <a
+        id="profile-link"
+        href="https://github.com/freecodecamp"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-github"></i> GitHub</a
+      >
+      <a
+        href="https://twitter.com/freecodecamp"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-twitter"></i> Twitter</a
+      >
+      <a href="/cdn-cgi/l/email-protection#600518010d100c05200518010d100c054e030f0d" class="btn contact-details"><i class="fas fa-at"></i> Envie um E-mail</a
+      >
+      <a href="tel:555-555-5555" class="btn contact-details"
+        ><i class="fas fa-mobile-alt"></i> Me ligue</a
+      >
+    </div>
+  </section>
 
+  <!-- END CONTACT SECTION -->
 
+  <!-- START FOOTER SECTION -->
 
+  <footer>
+    <p>
+      **This is just a fake portfolio. All the projects and contact details
+      given are not real.
+    </p>
+    <p>
+      &copy; Criado por
+      <a href="https://www.freecodecamp.com/" target="_blank"
+        >Eder Arthur <i class="fab fa-free-code-camp"></i
+      ></a>
+    </p>
+  </footer>
 
-
-
-
-
-
-</section>
-</div>   
-    
-    <footer>
-    <a href="#">Myprojects</a>
-    <a href="https://github.com/EderArthur" target="_blank" id="profile-link">My GitHub profile</a>
-    </footer>
-    
-    </main>
-    </body>
+  <!-- END FOOTER SECTION -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 </html>
